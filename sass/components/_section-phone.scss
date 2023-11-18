@@ -1,0 +1,113 @@
+.section-phone {
+position: relative;
+background-color: #081130;
+max-width: 1850px;
+min-height: 1200px;
+margin-left: auto;
+margin-right: auto;
+&::before {
+    position: absolute;
+    content: "";
+    background-image: url(/image/phone.png);
+    width: 800px;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 370px;
+   
+}
+&__span {
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 1.1px;
+    border-radius: 5px;
+    width: 200px;
+    height: 36px;
+    align-items: center;
+    background-color: #F2F6FA;
+    padding: 10px 18px;
+    margin-top: 100px;
+   
+   
+}
+&__tittle {
+font-family: Montserrat;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: 60px;
+width: 481px;
+letter-spacing: -1px;
+color: $primary-text-color;
+margin-bottom: 24px;
+margin-top: 24px;
+}
+&__text {
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 143%;
+    letter-spacing: -0.2px;
+    width: 481px;
+    color: $primary-text-color;
+    margin-bottom: 35px;
+}
+&__btn {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 152%;
+    background-color: $accent-color;
+    border-radius: 8px;
+    width: 270px;
+    height: 70px;
+  cursor: pointer;
+    &:hover {
+        background-color: orange;
+        transition-duration: 250ms;
+        transform: scale(1.1);
+    }
+}
+&__flex-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 720px;
+  
+ }
+
+
+&__img {
+    width: 1850px;
+    height: 360px;
+    z-index: 1;
+    position: absolute;
+
+}
+&__leaf {
+    position: relative;
+&::before {
+    position: absolute;
+    content: "";
+    background-image: url(/image/leaf-4.png);
+    width: 130px;
+    height: 130px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: -30px;
+    top: 65px;
+}
+&::after {
+    position: absolute;
+    content: "";
+    background-image: url(/image/berry-5.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 180px;
+    height: 190px;
+    left: 1180px;
+    top: -20px;
+}
+}
+}

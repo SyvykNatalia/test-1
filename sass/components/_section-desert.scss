@@ -1,0 +1,132 @@
+ .section-desert {
+   background-color: $secondary-bg-color;
+   position: relative;
+
+&::before {
+    position: absolute;
+    content: "";
+    background-image: url(/image/berry-4.png);
+    width: 180px;
+    height: 180px;
+    background-size: contain;
+    top: 270px;
+    right: 1675px;
+}
+&::after {
+    position: absolute;
+    content: "";
+    background-image: url(/image/leaf-3.png);
+    width: 108.932px;
+    height: 112.992px;
+    top: 1382px;
+    left: 1675px;
+
+}
+
+ &__title {
+     text-align: center;
+     font-family: Montserrat;
+     font-size: 48px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 60px;
+     letter-spacing: -1px;
+     color: $secondary-text-color;
+    margin-bottom: 80px;
+}
+&__title-card {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 143%;
+    color: $secondary-text-color;
+    margin-bottom: 12px;
+}
+&__text {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    color: $secondary-text-color;
+    width: 260px;
+    margin-bottom: 24px;
+}
+&__span {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    color: #434B53;
+    margin-bottom: 14px;
+}
+&__btn {
+    border-radius: 8px;
+    background-color: $accent-color;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 152%;
+    width: 158px;
+    height: 58px;
+    border: transparent;
+    cursor: pointer;
+   &:hover {
+    background-color: orange;
+    transition-duration: 250ms;
+    transform: scale(1.1);
+    
+   } 
+ }
+ &__card {
+   display: flex;
+   flex-direction: column;
+   padding: 50px 44px;
+   border-radius: 0px 0px 10px 10px;
+   border: 1px solid;
+   color: #F2F6FA;
+   width: 380px;
+   height: 337px;
+ position: relative; 
+
+}
+&::after {
+    position: absolute;
+    content: "";
+    background-image: url(/image/leaf-2.png);
+    background-size: contain;
+    width: 161px;
+    height: 167px;
+    top: 1025px;
+    left: 1675px;
+}
+&__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+&__image {
+    width: 380px;
+    height: 245px;
+
+}
+&__after {
+    position: relative;
+&::after {
+position: absolute;
+    content: "";
+    background-image: url(/image/leaf-3.png);
+    background-size: contain;
+    width: 108.932px;
+    height: 112.992px;
+    right: 1150px;
+    top: 55px;
+
+}
+}
+
+}

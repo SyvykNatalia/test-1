@@ -1,0 +1,110 @@
+.section-slider {
+   background-color:  #081130;
+   max-width: 1850px;
+   min-height: 1200px;
+   margin-left: auto;
+   margin-right: auto;
+   position: relative;
+   &::before {
+      position: absolute;
+      content: "";
+      background-image: url(/image/leaf-5.png);
+      width: 170px;
+      height: 170px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      top: 285px;
+      left: 192px;
+   }
+   &::after {
+      position: absolute;
+         content: "";
+         background-image: url(/image/berry-7.png);
+         width: 170px;
+         height: 170px;
+         background-repeat: no-repeat;
+         background-size: contain;
+         top: 420px;
+         left: 1470px;
+   }
+   &__tittle {
+      font-family: Montserrat;
+      font-size: 48px;
+      font-weight: 500;
+      line-height: 60px;
+      letter-spacing: -1px;
+      text-align: center;
+      color: #fff;
+      margin-bottom: 70px;
+   }
+   &__border {
+      border-radius: 5px;
+      border: 2px solid;
+      background-color: #fff;
+      width: 1200px;
+      height: 615px;
+      padding: 70px 143px;
+      display: flex;
+      gap: 54px;
+      margin-bottom: 60px;
+    
+   }
+   &__img {
+      width: 330px;
+      height: 330px;
+   }
+      &__tittle-2 {
+      font-family: Montserrat;
+      font-size: 30px;
+      font-weight: 500;
+      color: $secondary-text-color;
+      width: 460px;
+      margin-top: 24px;
+      margin-bottom: 24px;
+   }
+   &__text {
+      font-family: Montserrat;
+      font-size: 15px;
+      font-weight: 400;
+      color: #2E363E;
+      width: 430px;
+      margin-bottom: 24px;
+   }
+   &__link {
+      font-family: Montserrat;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      color: #4A94FF;
+      text-decoration: none;
+      position: relative;
+      &::after {
+         position: absolute;
+         content: "";
+         width: 148px;
+         height: 1px;
+         background-color: #4A94FF;
+         right: 0px;
+         top: 17px;
+      }
+   }
+   &__tittle-3 {
+      font-family: Montserrat;
+         font-size: 21px;
+         text-align: center;
+         font-weight: 500;
+         color: #2E363E;
+   }
+   &__span {
+      text-align: center;
+      font-family: Montserrat;
+      font-size: 16px;
+      font-weight: 400;
+      color: #A6AEB6;
+      
+   }
+   &__cont {
+      display: flex;
+      justify-content: center;
+   }
+}                                       
